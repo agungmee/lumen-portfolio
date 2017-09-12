@@ -1,0 +1,256 @@
+[2017-09-12 02:53:38] lumen.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "serve" is not defined. in C:\xampp\htdocs\portfolio\vendor\symfony\console\Application.php:596
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\symfony\console\Application.php(205): Symfony\Component\Console\Application->find('serve')
+#1 C:\xampp\htdocs\portfolio\vendor\symfony\console\Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\console\Application.php(88): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Console\Kernel.php(84): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\portfolio\artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2017-09-12 03:03:27] lumen.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "serve" is not defined. in C:\xampp\htdocs\portfolio\vendor\symfony\console\Application.php:596
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\symfony\console\Application.php(205): Symfony\Component\Console\Application->find('serve')
+#1 C:\xampp\htdocs\portfolio\vendor\symfony\console\Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\console\Application.php(88): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Console\Kernel.php(84): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\portfolio\artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2017-09-12 03:06:57] lumen.ERROR: ErrorException: Use of undefined constant home - assumed 'home' in C:\xampp\htdocs\portfolio\routes\web.php:15
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\routes\web.php(15): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Use of undefine...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 [internal function]: Closure->{closure}()
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\container\BoundMethod.php(29): call_user_func_array(Object(Closure), Array)
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\container\BoundMethod.php(75): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Object(Closure), Object(Closure))
+#5 C:\xampp\htdocs\portfolio\vendor\illuminate\container\Container.php(549): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Object(Closure), Array, NULL)
+#6 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Illuminate\Container\Container->call(Object(Closure), Array)
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#12 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#13 {main}  
+[2017-09-12 04:57:33] lumen.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "serve" is not defined. in C:\xampp\htdocs\portfolio\vendor\symfony\console\Application.php:596
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\symfony\console\Application.php(205): Symfony\Component\Console\Application->find('serve')
+#1 C:\xampp\htdocs\portfolio\vendor\symfony\console\Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\console\Application.php(88): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Console\Kernel.php(84): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\portfolio\artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2017-09-12 05:08:27] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#5 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#6 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#13 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#14 {main}
+
+Next ErrorException: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' (View: C:\xampp\htdocs\portfolio\resources\views\home.blade.php) in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\PhpEngine.php(47): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(Symfony\Component\Debug\Exception\FatalThrowableError), 1)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#13 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#14 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#15 {main}  
+[2017-09-12 05:11:12] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#5 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#6 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#13 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#14 {main}
+
+Next ErrorException: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' (View: C:\xampp\htdocs\portfolio\resources\views\home.blade.php) in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\PhpEngine.php(47): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(Symfony\Component\Debug\Exception\FatalThrowableError), 1)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#13 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#14 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#15 {main}  
+[2017-09-12 05:14:57] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#5 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#6 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#13 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#14 {main}
+
+Next ErrorException: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' (View: C:\xampp\htdocs\portfolio\resources\views\home.blade.php) in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\PhpEngine.php(47): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(Symfony\Component\Debug\Exception\FatalThrowableError), 1)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#13 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#14 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#15 {main}  
+[2017-09-12 05:16:09] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#5 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#6 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#13 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#14 {main}
+
+Next ErrorException: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' (View: C:\xampp\htdocs\portfolio\resources\views\home.blade.php) in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\PhpEngine.php(47): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(Symfony\Component\Debug\Exception\FatalThrowableError), 1)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#13 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#14 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#15 {main}  
+[2017-09-12 05:16:37] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#5 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#6 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#13 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#14 {main}
+
+Next ErrorException: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' (View: C:\xampp\htdocs\portfolio\resources\views\home.blade.php) in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\PhpEngine.php(47): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(Symfony\Component\Debug\Exception\FatalThrowableError), 1)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#13 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#14 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#15 {main}  
+[2017-09-12 05:25:40] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#5 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#6 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#13 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#14 {main}
+
+Next ErrorException: Parse error: syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' (View: C:\xampp\htdocs\portfolio\resources\views\home.blade.php) in C:\xampp\htdocs\portfolio\storage\framework\views\5e2b03b7f903fe21d3634773365160d5ea1e39c5.php:9
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\PhpEngine.php(47): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(Symfony\Component\Debug\Exception\FatalThrowableError), 1)
+#1 C:\xampp\htdocs\portfolio\vendor\illuminate\view\Engines\CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(137): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(120): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\portfolio\vendor\illuminate\view\View.php(85): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\portfolio\vendor\illuminate\http\Response.php(39): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\portfolio\vendor\symfony\http-foundation\Response.php(201): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(431): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(286): Laravel\Lumen\Application->prepareResponse(Object(Illuminate\View\View))
+#9 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(260): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#10 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(160): Laravel\Lumen\Application->handleFoundRoute(Array)
+#11 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(413): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#12 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(166): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#13 C:\xampp\htdocs\portfolio\vendor\laravel\lumen-framework\src\Concerns\RoutesRequests.php(107): Laravel\Lumen\Application->dispatch(NULL)
+#14 C:\xampp\htdocs\portfolio\public\index.php(28): Laravel\Lumen\Application->run()
+#15 {main}  
